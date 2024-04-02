@@ -1,3 +1,4 @@
+```
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/rocky9"
 
@@ -13,3 +14,4 @@ Vagrant.configure("2") do |config|
     vb.customize ["createhd", "--filename", "ezconf.tp1.efrei.vdi", "--size", 20 * 1024] # 20GB
   end
 end
+```
