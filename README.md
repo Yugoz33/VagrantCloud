@@ -186,8 +186,8 @@ user_data.yml :
 
 ---
 users:
-  - name: antna
-    primary_group: antna
+  - name: hugo
+    primary_group: hugo
     groups: wheel
     shell: /bin/bash
     sudo: ALL=(ALL) NOPASSWD:ALL
@@ -195,3 +195,9 @@ users:
     passwd: $6$iuqbPcBadz2HSt97$kUUI7qoWbrH4fTY.CpErukwCZVMnWUWzepoYP3PIHGaveGm1VGWBuNWRB/vPKXdh/UNSOwAuljFv3unFLrw07/ # admin
     ssh_authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrpd9MU1MDMbfCWZRmw/dv6jlK4KibcUQr
+   
+
+
+-
+
+
